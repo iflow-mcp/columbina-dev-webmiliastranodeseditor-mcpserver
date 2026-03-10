@@ -1,0 +1,1 @@
+{"serverConfig": {"mcpServers": {"webmiliastra-nodes-editor": {"command": "npx", "args": ["-y", "@iflow-mcp/columbina-dev-webmiliastranodeseditor-mcpserver", "--transport", "stdio"], "values": {}}}}}
