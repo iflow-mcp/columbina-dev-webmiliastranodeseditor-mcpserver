@@ -320,7 +320,7 @@ const writeProject = async (input: {
   }
 
   if (Array.isArray(parsed.data.manifest.structures) && parsed.data.structs) {
-    for (const entry of parsed.data.manifest.structures) {
+    for (const entry of parsed.data.manifest.structures as Array<{structId?: string; path?: string}>) {
       if (!entry?.structId || !entry?.path) continue;
       const structDoc = parsed.data.structs[entry.structId];
       if (!structDoc) {
