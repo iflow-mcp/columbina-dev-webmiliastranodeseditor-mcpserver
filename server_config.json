@@ -1,1 +1,1 @@
-{"serverConfig":{"mcpServers":{"webmiliastra-nodes-editor":{"command":"npx","args":["-y","--package=@iflow-mcp/columbina-dev-webmiliastranodeseditor-mcpserver","node","build/index.js"],"values":{}}}}}
+{"serverConfig": {"mcpServers": {"webmiliastra-nodes-editor": {"command": "npx", "args": ["-y", "--package=@iflow-mcp/columbina-dev-webmiliastranodeseditor-mcpserver", "node", "build/index.js"], "values": {}}}}}
